@@ -40,4 +40,4 @@ for i in rows:
     cursor.execute("INSERT INTO test.died VALUES(%s, %s, %s)", i)
     mydb.commit()
 
-print('Data inserted!')
+print('Data inserted!!!')
